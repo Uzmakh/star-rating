@@ -7,6 +7,8 @@ const StarRating = () => {
   const [rating, setRating] = useState(0); // State for the selected rating
   const [hover, setHover] = useState(0);   // State for hover effect
   return (
+    <>
+    <h1>Rate our service!</h1>
     <div className="star-rating">
       {[...Array(5)].map((star, index) => { // Map over an array for 5 stars
         index += 1; // Adjust index to be 1-based
@@ -23,7 +25,8 @@ const StarRating = () => {
           />
         );
       })}
-    </div>
+      </div>
+    </>
   )
 }
 
