@@ -1,7 +1,6 @@
 import "./App.css";
 import Feedback from "./components/feedback/Feedback";
-
-import StarRating from "./components/starRating/StarRating";
+// import StarRating from "./components/starRating/StarRating";
 
 function App() {
   return (
